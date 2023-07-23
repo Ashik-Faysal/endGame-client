@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import College from "./College";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Thsi is home jsx file</h1>
-        </div>
-    );
+  return (
+    <div>
+      <College />
+    </div>
+  );
 };
 
 export default Home;

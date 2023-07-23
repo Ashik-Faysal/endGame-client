@@ -61,13 +61,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="btn btn-outline">About</Link>
+            <Link to="/college" className="btn btn-outline">College</Link>
+          </li>
+          <li>
+            <Link to="/admission" className="btn btn-outline">Admission</Link>
           </li>
         </ul>
       </div>
       <div className="md:ml-4 flex gap-2 navbar-end">
         {user ? (
           <>
+            <Link to="/my-college" className="btn btn-outline">My College</Link>
             <img
               className="w-12 h-12 rounded-full"
               src={user.photoURL}
